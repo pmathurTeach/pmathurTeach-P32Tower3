@@ -68,7 +68,7 @@ score=0;
     connection = new slingshot({x:150,y:400},ball.body);
   }
 function draw(){
-    background(0);    
+    background("pink");    
     Engine.update(engine);
 
     stand1.display();
